@@ -1,0 +1,4 @@
+editor:
+  externalPlugins:
+    abbr:
+      resource: "EXT:rte_ckeditor_abbr/Resources/Public/JavaScript/Plugins/abbr/plugin.js"
