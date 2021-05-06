@@ -63,6 +63,7 @@ CKEDITOR.dialog.add( 'abbrDialog', function( editor ) {
 						// Called by the main commitContent method call on dialog confirmation.
 						commit: function( element ) {
 							element.setAttribute( "title", this.getValue() );
+							element.setAttribute("tabindex", "-1" );
 						}
 					}
 				]
