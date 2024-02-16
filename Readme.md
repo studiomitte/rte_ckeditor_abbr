@@ -13,8 +13,12 @@ All it takes to enable the plugin are the following changes in your `RTE.yaml`:
 1. Import the configuration from the extension:
 
 ```yaml
-imports:
-    - { resource: "EXT:rte_ckeditor_abbr/Configuration/RTE/Plugin.yaml" }
+editor:
+  config:
+    importModules:
+      - '@studiomitte/rte-ckeditor-abbr/abbreviation.js'
+    contentCss:
+      - "EXT:rte_ckeditor_abbr/Resources/Public/Css/Abbr.css"
 ```
 
 2. Enable the plugin:
@@ -22,8 +26,9 @@ imports:
 ```yaml
 editor:
   config:
-    extraPlugins:
-      - abbr
+    toolbar:
+      items:
+        - abbreviation
 ```
 
 
