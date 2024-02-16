@@ -1,6 +1,6 @@
 # TYPO3 Extension `rte_ckeditor_abbr`
 
-This extension ships a simple plugin for the ckeditor to allow editors setting abbreviations. The plugin itself has been taken from https://ckeditor.com/docs/ckeditor4/latest/examples/abbr.html without any changes
+This extension ships a simple plugin for the ckeditor to allow editors setting abbreviations. The plugin itself has been taken from https://github.com/ckeditor/ckeditor5-tutorials-examples/tree/main/abbreviation-plugin/part-1 without only little changes
 
 ## Installation
 
