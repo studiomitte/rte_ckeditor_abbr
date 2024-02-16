@@ -4,7 +4,7 @@ This extension ships a simple plugin for the ckeditor to allow editors setting a
 
 ## Installation
 
-Use `composer require studiomitte/rte-ckeditor-abbr` or download the extension from TER.
+Use `ddev composer req studiomitte/rte-ckeditor-abbr:12.4` or download the extension from TER.
 
 ## Usage
 
