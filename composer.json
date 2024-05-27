@@ -6,13 +6,18 @@
 		{
 			"name": "Georg Ringer",
 			"role": "Developer"
+		},
+		{
+			"name": "Wolfgang Höller",
+			"role": "Developer"
+		
 		}
 	],
 	"license": [
 		"GPL-2.0-or-later"
 	],
 	"require": {
-		"typo3/cms-rte-ckeditor": "^9.5 || ^10.4 || ^11.5"
+		"typo3/cms-rte-ckeditor": "^12.4"
 	},
 	"autoload": {
 		"psr-4": {
