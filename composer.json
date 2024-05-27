@@ -1,7 +1,7 @@
 {
 	"name": "studiomitte/rte-ckeditor-abbr",
 	"type": "typo3-cms-extension",
-	"description": "",
+	"description": "Add Abbreviations information through the ckeditor",
 	"authors": [
 		{
 			"name": "Georg Ringer",
@@ -12,7 +12,7 @@
 		"GPL-2.0-or-later"
 	],
 	"require": {
-		"typo3/cms-rte-ckeditor": "^9.5 || ^10.4"
+		"typo3/cms-rte-ckeditor": "^9.5 || ^10.4 || ^11.5"
 	},
 	"autoload": {
 		"psr-4": {
@@ -23,10 +23,6 @@
 		"psr-4": {
 			"StudioMitte\\RteCkEditorAbbr\\Tests\\": "Tests"
 		}
-	},
-	"replace": {
-		"studiomitte/rte-ckeditor-abbr": "self.version",
-		"typo3-ter/rte-ckeditor-abbr": "self.version"
 	},
 	"extra": {
 		"typo3/cms": {
